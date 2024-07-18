@@ -1,10 +1,10 @@
 ﻿param(
 [Parameter(Mandatory=$true)]
-$EventId,
+[int]$EventId,
 
-$Newest = 5 ,
+[int]$Newest = 5 ,
 
-$Computername = "localhost"
+[string]$Computername = "localhost"
 )
 
 Get-EventLog -LogName Security -ComputerName $Computername | Where-Object EventId -eq $EventId | Select-Object -First $Newest
