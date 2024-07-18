@@ -29,6 +29,7 @@
 [cmdletBinding()]
 param(
 [Parameter(Mandatory=$true)]
+[ValidateSet(4624,4625,4634)]
 [int]$EventId,
 
 [int]$Newest = 5 ,
