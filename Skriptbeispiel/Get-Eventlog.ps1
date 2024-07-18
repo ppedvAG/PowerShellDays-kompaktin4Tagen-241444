@@ -35,6 +35,7 @@ param(
 [ValidateRange(5,10)]
 [int]$Newest = 5 ,
 
+[ValidateScript({Test-NetConnection -ComputerName $PSItem -CommonTCPPort WINRM -InformationLevel Quiet})]
 [string]$Computername = "localhost"
 )
 
