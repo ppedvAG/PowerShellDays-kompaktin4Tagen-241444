@@ -1,4 +1,4 @@
-# PowerShellDays-kompaktin4Tagen-241444
+﻿# PowerShellDays-kompaktin4Tagen-241444
 KursRepository zu Kurs PowerShell Days - kompakt in 4 Tagen der ppedv AG
 
 [Kursblatt](https://ppedv.de/schulung/kurse/PowershellAdministrationWindowslWMIActiveDirectoryIIS7cmdletspipelinesPs1Skripte.aspx)
@@ -45,3 +45,6 @@ KursRepository zu Kurs PowerShell Days - kompakt in 4 Tagen der ppedv AG
 - Filtern
 - Aufzählen
 - Schleifen
+----
+Fortgeschritten:
+- Git
