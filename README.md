@@ -48,3 +48,7 @@ KursRepository zu Kurs PowerShell Days - kompakt in 4 Tagen der ppedv AG
 ----
 Fortgeschritten:
 - Git
+- Powershell Versionen 5,6,7
+    - Neuerungen
+- Skriptsicherheit
+- Skripting
