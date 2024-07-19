@@ -60,5 +60,12 @@ Fortgeschritten:
     - ModulManifest
     - BeginProcessEnd
     - Pipelinefähigkeit
+    - cmdletBinding
+    - Parameter Attribut
+- OOPE
+    - Class
+    - Enum
+- Fehlerbehandlung
+- WMI / CIM
+- 
 
-- Wiederholung Schleifen
