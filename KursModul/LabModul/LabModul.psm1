@@ -49,3 +49,21 @@ param(
 
     $AlteredText
 }
+
+function Test-ParameterSet
+{
+[cmdletBinding(DefaultParameterSetName="Set2")]
+param(
+[Parameter(Mandatory = $true, ParameterSetName="Set1")]
+$param1,
+
+[Parameter(Mandatory = $true, ParameterSetName="Set2")]
+$param2,
+
+[Parameter(Mandatory = $true, ParameterSetName="Set1")]
+[Parameter(Mandatory = $false, ParameterSetName="Set2")]
+$param3
+)
+
+Write-Host -Object "Es wurde folgendes ParameterSet verwendet: $($PSCmdlet.ParameterSetName)"
+}
