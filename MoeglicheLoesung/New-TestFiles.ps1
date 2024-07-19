@@ -36,8 +36,11 @@ if(Test-Path -Path $TestDirPath -PathType Container)
     }
     else
     {
+        <# 
         Write-Host -Object "Ordner bereits vorhanden" -ForegroundColor Red
         exit
+        #>
+        Write-Error -Message "Ordner bereits vorhanden"
     }
 }
 
