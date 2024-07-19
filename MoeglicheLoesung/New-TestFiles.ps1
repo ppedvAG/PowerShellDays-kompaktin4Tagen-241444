@@ -1,4 +1,14 @@
-﻿[cmdletBinding()]
+﻿<#
+.Synopsis
+   TestFiles erstellen
+.DESCRIPTION
+   Skript zum anlegen von Test Dateien.
+.EXAMPLE
+   Beispiel für die Verwendung dieses Cmdlets
+.EXAMPLE
+   Ein weiteres Beispiel für die Verwendung dieses Cmdlets
+#>
+[cmdletBinding()]
 param(
 [ValidateScript({Test-Path -Path $PSItem -Pathtype Container})]
 [Parameter(Mandatory=$true)]
