@@ -40,6 +40,6 @@ param(
 )
 
 Write-Verbose -Message "Ich bin eine zusätzliche optionale Ausgabe"
-
+Write-Debug -Message "Debug Haltepunkt vor Abfrage"
 Get-EventLog -LogName Security -ComputerName $Computername | Where-Object EventId -eq $EventId | Select-Object -First $Newest
 
