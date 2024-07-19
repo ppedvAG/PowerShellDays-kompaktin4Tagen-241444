@@ -52,3 +52,9 @@ Fortgeschritten:
     - Neuerungen
 - Skriptsicherheit
 - Skripting
+    - Comment Based Help
+    - Parametrisierung
+    - Parameter Validierung
+    - Optionale Ausgaben mit -Verbose
+    - Debugging
+- Wiederholung Schleifen
