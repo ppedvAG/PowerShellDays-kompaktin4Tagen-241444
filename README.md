@@ -57,4 +57,8 @@ Fortgeschritten:
     - Parameter Validierung
     - Optionale Ausgaben mit -Verbose
     - Debugging
+    - ModulManifest
+    - BeginProcessEnd
+    - Pipelinefähigkeit
+
 - Wiederholung Schleifen
